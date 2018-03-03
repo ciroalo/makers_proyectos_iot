@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IoT Cloud</title>
+    <title>Añadir placa</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js"></script>
     <link rel="stylesheet" href="styles/bulma.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-   <nav class="navbar is-link">
+
+<nav class="navbar is-link">
     <div class="navbar-brand">
         <a class="navbar-item title is-4">
             <span class="icon">
@@ -33,23 +34,31 @@
         </a>
         </div>
         </div>
-   </nav>
+</nav>
 <br>
 
 <div class="container">
-    <div class="has-text-centered">
-        <a href="addnewboard.php" class="button is-danger is-large is-centered is-rounded">
-        <span class="icon">
-        <i class="fas fa-plus"></i>
-       </span>
-       <span> Añadir una placa </span>
-        </a>
+    <div class="columns is-centered">
+        <div class="column is-half is-narrow">
+            <div class="box">
+                <h4 class="title is-4 has-text-centered">Tu nueva placa:</h4>
+                <form >
+                    <div class="field">
+                        <label for="" class="label">Nombre de la placa:</label>
+                        <div class="control">
+                        <input type="text" class="input" placeholder="Nombre">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="" class="label">Descripcion corta:</label>
+                        <div class="control">
+                        <input type="text" class="input" placeholder="¿Que hace la placa?">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-
-
-
-
-
 </div>
 
 </body>
