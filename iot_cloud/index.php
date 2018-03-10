@@ -38,7 +38,7 @@
 
 <div class="container">
     <div class="has-text-centered">
-        <a href="addnewboard.php" class="button is-danger is-large is-centered is-rounded">
+        <a href="addnewboard.html" class="button is-danger is-large is-centered is-rounded">
         <span class="icon">
         <i class="fas fa-plus"></i>
        </span>
